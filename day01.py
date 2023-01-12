@@ -1,10 +1,8 @@
-#dictionary 예제
+#tkinter 예제
 
-subjects = {'의사소통 영어': 'A+',
-            '오래된 미래': ' B+',
-            '양자역학' : 'A0'
-}
+from tkinter import *
 
-student = '김도훈'
-subject='오래된 미래'
-print(f'{student}학생의 {subject} 과목 성적은 {subjects[subject]}입니다.')
+win=Tk()
+win.geometry('400x300')
+win.title('파이썬 1일차 preview')
+win.mainloop()
