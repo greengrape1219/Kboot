@@ -1,9 +1,10 @@
-#countdown 예제
+#dictionary 예제
 
-countdown_list= [5,4,3,2,1, "hey"]
-for countdown in countdown_list:
-    print(countdown)
-print('프로그램 종료')
+subjects = {'의사소통 영어': 'A+',
+            '오래된 미래': ' B+',
+            '양자역학' : 'A0'
+}
 
-print(countdown[3])
-print(countdown[-3]) #2
+student = '김도훈'
+subject='오래된 미래'
+print(f'{student}학생의 {subject} 과목 성적은 {subjects[subject]}입니다.')
