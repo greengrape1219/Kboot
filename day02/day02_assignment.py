@@ -10,3 +10,18 @@ elif secret-guess<0:
     print('too high')
 else:
     print('just right')
+
+small=True
+green=True
+
+if small:
+    if green:
+        print('완두콩은 작고 초록색이다.')
+    else:
+        print('체리는 작고 초록색이 아니다.')
+else:
+    if green:
+        print('수박은 크고 초록색이다.')
+    else:
+        print('호박는 크고 초록색이 아니다.')
+
