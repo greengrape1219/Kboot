@@ -47,12 +47,12 @@ rhymes=[
 ]
 start2='Someone better'
 
-# for k in rhymes:
-#     for i in start1:
-#         print(i.title()+'! ', end='')
-#     print(rhymes[k][0].title()+'!')
-#     print('')
-#     print(start2+' '+rhymes[k][1]+'.')
+for k in rhymes:
+    for i in start1:
+        print(i.title()+'! ', end='')
+    print(rhymes[k][0].title()+'!')
+    print('')
+    print(start2+' '+rhymes[k][1]+'.')
 
 #8.1
 e2f={'dog':'chien','cat':'chat','walrus':'morse'}
@@ -67,6 +67,9 @@ for key,value in e2f.items():
 print(f2e)
 
 #8.4
+for item,value in e2f.items():
+    if value=='chien':
+        print(item)
 
 #8.5
 for i in e2f.keys():
@@ -84,7 +87,8 @@ print(life.keys())
 print(life['animals'].keys())
 
 #8.9
-# print(life['animals']['cats'].values())
+for inanimal in life['animals']:
+      print(inanimal['cats'].values())
 
 #8.10
 squares={ number:number**2 for number in range(10)}
