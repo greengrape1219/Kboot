@@ -2,7 +2,7 @@
 odd = {number for number in range(10) if number % 2 == 1}
 print(odd)
 
-# 8.12
+# 8.12 제너레이터문제 나중에 배우고 하기!
 for i in 'got':
     print(i)
 
