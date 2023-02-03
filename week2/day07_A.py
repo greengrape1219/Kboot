@@ -106,11 +106,11 @@ class Machine():
     def does(self):
         return f"'{self.function}'({self.name}"
 
-class Laser():
+class Laser(Machine):
     pass
-class Claw():
+class Claw(Machine):
     pass
-class SmartPhone():
+class SmartPhone(Machine):
     pass
 
 L1=Laser('Laser','disintegrate')
